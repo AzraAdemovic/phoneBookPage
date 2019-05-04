@@ -1,0 +1,27 @@
+<html>
+    <title>Login</title>
+    <head>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <link rel="stylesheet" href="css/login.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="panel">
+        <form class="panel panel-default col-md-12">
+            <div class="form-group"><img src="images/user.png" width="200" height="200"></div>
+            <form onsubmit="tryUserLogin()">
+                 
+              <div class="form-group"><label class="lbl">Last name</label><br><input placeholder="Write your last name here..." class="credentials form-control" type="text"></div>
+             
+              <div class="form-group"><label class="lbl">Password</label><br><input placeholder="Write your password here..." class="credentials form-control" type="password"></div>
+              <div class="form group"><button class="btn btn-primary form-control" type="submit">Log in</button></div>
+              <div class="form group"><button class="btn btn-info register form-control " ><a href="signup.html">Sign up</a></button></div>
+            </form>
+          </form>
+        </div>
+        <div class="col-md-4 stickerbox"><p>Login or Register</p><br><img src="images/loginregister.png" width="200px" height="200px"></div>
+        <div class="col-md-4 stickerbox"><p>Create contacts and groups</p><br><img src="images/new.jpg" width="200px" height="200px"></div>
+        <div class="col-md-4 stickerbox"><p>Organize and edit content</p><br><img src="images/edit.png" width="200px" height="200px"></div>
+    </body>
+</html>

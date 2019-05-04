@@ -1,0 +1,51 @@
+<html>
+<title>Register</title>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="d-flex justify-content-center topmargin wrapper">
+        <div class="flag col-md-7 wrapper  ">
+
+
+            <form onsubmit="validateAndTryToAddUser()" class="panel panel-default">
+
+                <div class="form-group">
+                    <label for="firstName">First name</label>
+                    <input class="sendRight form-control" type="text">
+
+                </div>
+                <div class="form-group ">
+                    <label for="lastName">Last name</label>
+                    <input class="sendRight form-control" type="email">
+
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input class="sendRight form-control" type="password">
+
+                </div>
+
+
+
+                <div class="form-group">
+                    <button class="btn btn-primary pull-left buttons">Submit</button> <button type="button" 
+                        class=" register btn btn-warning pull-right buttons"> Login</button>
+                </div>
+
+            </form>
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>

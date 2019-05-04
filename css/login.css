@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.panel{
+    margin-top:40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color:black  ;
+}
+.lbl{
+    display: block;
+    color: black;
+    font-size: 15px;
+ 
+}
+.credentials{
+    width:30%;
+}
+.btn {
+    font-family: 'Roboto', sans-serif;
+    color:black;
+}
+.register{
+    margin-top:20px;
+}
+button a:hover{
+    text-decoration-line: none;
+}
+.form-control{
+    text-align: center;
+}
+div p{
+    text-align: center;
+
+}
+.stickerbox{
+    border: 1px solid aquamarine;
+text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .credentials{
+        width:70%;
+    }
+}

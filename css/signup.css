@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.setCenter{
+    float: right;
+    width:60%;
+    margin-right: 15%;
+}
+
+.row{
+    display: block;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.topmargin{
+    margin-top: 100px;
+    font-family: Roboto,sans-serif;
+}
+
+.wrapper{
+    background-color:#4682B4 ;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+.buttons{
+    font-size: 15px;
+    font-family: inherit;
+    color:white;
+}
+ .panel{
+background-color: #4682B4;
+padding: 5px;
+}

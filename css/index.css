@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+.btn{
+    margin-top:10px;
+    outline: none;
+    background-color:transparent;
+    color:white;
+   
+    
+}
+body{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btn:hover{
+    color:slategray;
+}
+.panel{float: left;
+background-color: #E3E3EC;
+outline: none;
+height: 500px;
+border:1pt;
+padding-left: 2%;
+padding-right: 2%;
+}
+.heading{
+    background-color: #2196F3;
+   padding: 5px;
+    font-family: "Roboto",sans-serif;
+    text-align: center;
+}
+.load{
+    text-align: center;
+}
+
+.content {
+  background-color: #4682B4;
+ 
+  height: 100px;
+ 
+  padding: 40px;
+  float:left;
+  color:black;
+ 
+}
+.list{list-style: none;}
+
+#mainBlock{
+    max-height: 500px;
+    overflow-y: auto;
+}
+button a{
+    
+    color: white;
+}
+button a:hover{
+    text-decoration: none;
+    color:brown;
+}
+li{
+    list-style-type: none;
+}
+.row{
+    border-bottom: 0.5px solid grey;
+}
+.options{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    float: right;
+    margin-left: 5px;
+}
+.footer{
+    background-color: black;
+    color:white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    height: 80px;
+}
+.about{
+    float: left;
+    text-decoration: none;
+    margin-left: 20px;
+}
+li a{
+    color: white;
+}
+li a:hover{
+    text-decoration: none;
+    transform: scale(1.2);
+}

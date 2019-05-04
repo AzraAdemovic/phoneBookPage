@@ -1,0 +1,77 @@
+<html>
+<title>Home</title>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Web contacts manager</a>
+            </div>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav">
+                    <li class="active" onclick="getAllContacts()"><button class="btn">List all</button></li>
+                    <li class="dropdown">
+                        <button class=" btn dropdown-toggle" data-toggle="dropdown">Groups<span
+                                class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li>Friends</li>
+                            <li>Familly</li>
+                            <li>Work</li>
+                        </ul>
+                    </li>
+                    <li><button onclick="addNewGroup()" class="btn">Add new group</button></li>
+                    <li><button onclick="addNewContact()" class="btn"><a href="new-contact.html">Add new contact</a></button></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><button onclick="userInfo()" class="btn btn-dark"><span class="glyphicon glyphicon-user"></span>
+                            username</button></li>
+                    <li><button onclick="logOut()" class="btn btn-dark"><span
+                                class="glyphicon glyphicon-log-in"></span><a href="login.html"> Log
+                                out</a></button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="col-md-3 pull-left lists panel panel-default">
+        <h4>Groups</h4>
+        <ul>
+            <li onlick="retrieveContacts()">Friends</li>
+            <li onlick="retrieveContacts()">Familly</li>
+            <li onlick="retrieveContacts()">Work</li>
+        </ul>
+    </div>
+    <div class="col-md-7 pull-right lists panel panel-default">
+        <h4>Contacts</h4>
+        <ul>
+            <!--data binding-->
+            <li class="row">First name Last name Phone number <button type="button" onclick="editContact()"
+                    class="options"><img src="images/editico.png" width="25px" height="25px"></button><button
+                    title="Edit contact" type="button" onclick="editContact()" class="options"><img
+                        src="images/deleteico.png" width="25px" height="25px"></button></li>
+
+        </ul>
+    </div>
+    <div class="footer col-md-12">
+        <ol>
+            <li class="about">Facebook</li>
+            <li class="about">Instagram</li>
+            <li class="about"><a href="https://github.com/AzraAdemovic">Github</a></li>
+            <li class="about">Email</li>
+        </ol>
+    </div>
+</body>
+
+</html>
